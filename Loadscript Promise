@@ -1,0 +1,15 @@
+const Loadscript= async(src)=>{
+return new promise = ((resolve,reject)=>{
+let Script =document.CreateElement("Script")
+script.src = src
+script.onload =()=>{
+resolve(src + "Done Success")
+
+}
+document.head.append(Script)
+})
+})
+const Main2=async()=>{
+let a = await("src................??")
+console.log(a)
+}
