@@ -1,0 +1,16 @@
+
+<script type="text/javascript">
+    function fun() {
+      document.write("Function called!! ")
+      return Promise.resolve("Scaler");
+ 
+    }
+    fun().then(
+      (para) => {
+        document.write("Then success:" + para);
+      },
+      (para) => {
+        document.write("Then failure:" + para);
+      }
+    )
+</script>
